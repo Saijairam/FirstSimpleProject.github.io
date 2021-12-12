@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Quiz</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <h1>Welcome to my quiz</h1>
+
+    <form id="myform">
+      <!-- <p id="intro">Answer all Questions</p> -->
+      <div class="question1">
+          <p>What is capital of UttarPradesh??</p>
+          <input id="ans1" type="text">
+      </div>
+      <div class="question2">
+          <p>Which college is preferred by Most Students??</p>
+          <input type="text" id="ans2" placeholder="IITS OR NITS">
+          
+      </div>
+      <div class="question3">
+          <p>What is full form of "WWW"??</p>
+          <input type="text" id="ans3">
+      </div>
+      <input type="button" id="btn" Value="Submit" onclick='check()'>
+    </form>
+    <div class="container">
+    <div id="result"></div><br>
+    <div id="suggestion"></div>
+    </div>
+    <div id="box"></div>
+    <script src="function.js"></script>
+</body>
+</html>
